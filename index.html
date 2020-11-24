@@ -386,6 +386,52 @@
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
                 <button type="button" class="modal-close-btn" data-modal-close>X</button>
+
+                <form action="#" class="modal-form">
+
+                    <p class="modal-form-title">
+                        Оставьте свои данные, мы вам перезвоним
+                    </p>
+
+                    <label class="modal-form-field">
+                        Имя
+                        <span class="modal-form-input-wrapper">
+                            <input name="user-name" type="text" class="modal-form-input">
+                            <span class="modal-form-icon"></span>
+                        </span>
+                    </label>
+
+                    <label class="modal-form-field">
+                        Телефон
+                        <span class="modal-form-input-wrapper">
+                            <input name="user-phone" type="tel" class="modal-form-input">
+                            <span class="modal-form-icon"></span>
+                        </span>
+                    </label>
+
+                    <label class="modal-form-field">
+                        Почта
+                        <span class="modal-form-input-wrapper">
+                            <input name="user-mail" type="mail" class="modal-form-input">
+                            <span class="modal-form-icon"></span>
+                        </span>
+                    </label>
+
+                    <label class="modal-form-field">
+                        Комментарий
+                        <textarea name="user-message" class="modal-form-message" placeholder="Введите текст"></textarea>
+                    </label>
+                
+                    
+                    <input type="checkbox" name="user-policy" value="user-policy-ok" class="modal-form-policy visually-hidden"
+                        id="policy">
+
+                    <label for="policy" class="contact-form-policy-label">
+                        Соглашаюсь с рассылкой и принимаю&nbsp;<a href="#">Условия договора</a>
+                    </label>
+                    <button type="submit" class="modal-form-btn">Отправить</button>
+
+                </form>
             </div>
         </div>
         
