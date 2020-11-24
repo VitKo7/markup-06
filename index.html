@@ -385,7 +385,11 @@
         <!-- BACKDROP -->
         <div class="backdrop is-hidden" data-modal>
             <div class="modal">
-                <button type="button" class="modal-close-btn" data-modal-close>X</button>
+                <button type="button" class="modal-close-btn" data-modal-close>
+                    <svg class="icon-close-svg">
+                        <use href="./img/svg/sprite.svg#icon-close"></use>
+                    </svg>
+                </button>
 
                 <form action="#" class="modal-form">
 
@@ -397,7 +401,9 @@
                         Имя
                         <span class="modal-form-input-wrapper">
                             <input name="user-name" type="text" class="modal-form-input">
-                            <span class="modal-form-icon"></span>
+                            <svg class="icon-person-svg modal-form-icon">
+                                <use href="./img/svg/sprite.svg#icon-person"></use>
+                            </svg>
                         </span>
                     </label>
 
@@ -405,15 +411,19 @@
                         Телефон
                         <span class="modal-form-input-wrapper">
                             <input name="user-phone" type="tel" class="modal-form-input">
-                            <span class="modal-form-icon"></span>
+                            <svg class="icon-phone-svg modal-form-icon">
+                                <use href="./img/svg/sprite.svg#icon-phone"></use>
+                            </svg>
                         </span>
                     </label>
 
                     <label class="modal-form-field">
                         Почта
                         <span class="modal-form-input-wrapper">
-                            <input name="user-mail" type="mail" class="modal-form-input">
-                            <span class="modal-form-icon"></span>
+                            <input name="user-mail" type="email" class="modal-form-input">
+                            <svg class="icon-email-svg modal-form-icon">
+                                <use href="./img/svg/sprite.svg#icon-email"></use>
+                            </svg>
                         </span>
                     </label>
 
