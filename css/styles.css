@@ -614,6 +614,82 @@ img {
   background-color: var(--accent-color);
 }
 
+.email-sub {
+  margin-top: 12px;
+  margin-left: 93px;
+  width: 570px;
+  height: 86px;
+}
+
+.email-sub-slogan {
+  display: block;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.143;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-white-color);
+  margin-bottom: 20px;
+}
+
+.email-sub-form {
+  display: flex;
+  align-items: center;
+}
+
+.email-sub-input {
+  width: 358px;
+  height: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background: #2f303a;
+}
+
+.email-sub-input::placeholder {
+  font-family: Roboto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 16px;
+  padding-top: 15px;
+}
+
+.email-form-btn {
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: 200px;
+  height: 50px;
+  margin-left: 12px;
+  cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.email-form-text {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  margin-right: 10px;
+}
+
+.icon-send-svg {
+  width: 24px;
+  height: 24px;
+}
+
 /* ! ===================== Work Samples Filter ===================== */
 
 .samples {
