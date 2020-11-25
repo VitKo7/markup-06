@@ -214,7 +214,8 @@ img {
 
 .header-line {
   /* border bottom ? */
-  width: 1600px;
+  /* width: 1600px; */
+  display: block;
   margin: 0 auto;
   border: 1px solid #ececec;
 }
@@ -531,7 +532,7 @@ img {
 /* ! ========================= Footer ========================= */
 
 .footer {
-  width: 1600px;
+  /* width: 1600px; */
   margin: 0 auto;
   color: var(--primary-white-color);
   background-color: var(--footer-background);
